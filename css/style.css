@@ -49,9 +49,10 @@ header {
     width: 160px;
     height: 55px;
     padding: 10px;
+    text-align: center;
 }
 .contact-li a{
-    justify-content: center;
+    color: #171717;
 }
 
 
@@ -62,12 +63,14 @@ header {
 	justify-content: center;
 }
 
-
 .box-leftright {
-    max-width: 684px;
-    height: 595px;
+    width: 684px;
+    height: 595px;   
+    /* background-color: brown; */
+
 }
 .box-center {
     width: 707px;
     height: 597px;
+    /* background-color: aqua; */
 }
