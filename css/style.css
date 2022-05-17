@@ -18,6 +18,7 @@ ol{
     margin: 0 auto;
     height: 1297px;
     flex-wrap: wrap;
+    overflow: hidden;
 }
 
 header {
@@ -56,17 +57,19 @@ header {
 }
 
 
+
 .box {
     margin-top: 140px;
-    overflow: hidden;
+    /* overflow: hidden; */
     display: flex;
 	justify-content: center;
+    
     
 }
 .box-left {
     width: 684px;
     height: 595px;
-    /* margin-right: 5%; */
+    /* margin-right: 20px; */
     /* margin-left: 10%; */
     /* background-color: brown; */
 
@@ -75,16 +78,18 @@ header {
     width: 684px;
     height: 595px;
     /* margin-left: 5%; */
-    
+    /* flex: auto; */
     /* background-color: brown; */
 
 }
 .box-center {
     width: 707px;
     height: 597px;
+    /* margin-left: 5%; */
     /* margin: auto; */
     /* background-color: aqua; */
 }
+
 .first-dot{
     max-width: 1920px;
     display: inline-block;
