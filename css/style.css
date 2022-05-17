@@ -61,16 +61,50 @@ header {
     overflow: hidden;
     display: flex;
 	justify-content: center;
+    
 }
-
-.box-leftright {
+.box-left {
     width: 684px;
-    height: 595px;   
+    height: 595px;
+    /* margin-right: 5%; */
+    /* margin-left: 10%; */
+    /* background-color: brown; */
+
+}
+.box-right {
+    width: 684px;
+    height: 595px;
+    /* margin-left: 5%; */
+    
     /* background-color: brown; */
 
 }
 .box-center {
     width: 707px;
     height: 597px;
+    /* margin: auto; */
     /* background-color: aqua; */
+}
+.first-dot{
+    max-width: 1920px;
+    display: inline-block;
+    margin-left: 50px;
+    height: 10px;
+    width: 10px;
+    border-radius: 50px;
+    background-color: #FFFFFF;
+    opacity: 1;
+}
+.dot{
+    max-width: 1920px;
+    display: inline-block;
+    margin-left: 50px;
+    height: 10px;
+    width: 10px;
+    border-radius: 50px;
+    background-color: #FFFFFF;
+    opacity: 0.5;
+}
+.dots {
+    padding-left: 30%;
 }
